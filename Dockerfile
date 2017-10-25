@@ -1,7 +1,7 @@
 FROM debian:latest
 MAINTAINER manee2k6@gmail.com
 
-# 1 - RUN
+# 1 - RUN.
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq apt-utils
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -yq htop
 RUN apt-get clean
